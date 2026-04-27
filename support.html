@@ -1,1 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Notle Sudoku: Daily Grid</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      background: #f7f5f0;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 40px 24px 36px;
+      text-align: center;
+    }
+    header .icon {
+      font-size: 48px;
+      display: block;
+      margin-bottom: 12px;
+    }
+    header h1 {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    header p {
+      margin-top: 6px;
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+      letter-spacing: 0.5px;
+    }
+
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    .contact-card {
+      background: #fff;
+      border: 2px solid #1a1a1a;
+      padding: 28px 24px;
+      margin-bottom: 36px;
+      text-align: center;
+    }
+    .contact-card h2 {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #888;
+      margin-bottom: 10px;
+    }
+    .contact-card p {
+      font-size: 15px;
+      color: #333;
+      margin-bottom: 16px;
+    }
+    .contact-card a.email-btn {
+      display: inline-block;
+      background: #1a1a1a;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 12px 28px;
+      border: 2px solid #1a1a1a;
+      transition: opacity 0.15s;
+    }
+    .contact-card a.email-btn:hover { opacity: 0.75; }
+
+    section.faq { margin-bottom: 12px; }
+    section.faq h2 {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #888;
+      margin-bottom: 14px;
+    }
+
+    .faq-item {
+      background: #fff;
+      border: 2px solid #1a1a1a;
+      margin-bottom: 8px;
+    }
+    .faq-item summary {
+      padding: 16px 18px;
+      font-weight: 700;
+      font-size: 14px;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+    }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after {
+      content: '+';
+      font-size: 20px;
+      font-weight: 400;
+      color: #888;
+      flex-shrink: 0;
+      margin-left: 12px;
+    }
+    .faq-item[open] summary::after { content: '−'; }
+    .faq-item .answer {
+      padding: 0 18px 16px;
+      font-size: 14px;
+      color: #444;
+      border-top: 1px solid #e8e8e8;
+      padding-top: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 12px;
+      color: #aaa;
+      border-top: 1px solid #e0ddd6;
+    }
+    footer a {
+      color: #888;
+      text-decoration: none;
+    }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="icon">🟨</span>
+  <h1>Notle Sudoku: Daily Grid</h1>
+  <p>Support &amp; Help</p>
+</header>
+
+<main>
+
+  <!-- Contact -->
+  <div class="contact-card">
+    <h2>Contact Us</h2>
+    <p>Have a question or found a bug? We typically respond within 1–2 business days.</p>
+    <a class="email-btn" href="mailto:blueloveh03@gmail.com">blueloveh03@gmail.com</a>
+  </div>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <details class="faq-item">
+      <summary>How do I change the difficulty?</summary>
+      <div class="answer">
+        On the Home screen, tap the difficulty selector before starting a new game. You can choose from Easy, Medium, Hard, Expert, Master, and Legend.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What happens when I reach 3 mistakes?</summary>
+      <div class="answer">
+        If the Mistake Limit is turned on in Settings, the game ends after 3 mistakes. You can disable this limit in Settings → Gameplay → Mistake Limit to play without a penalty.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What are Hints and how many can I use?</summary>
+      <div class="answer">
+        Tap the 💡 Hint button during a game to reveal the correct number for the selected cell. There is no hard limit on hints, but using more hints lowers your final score and XP reward.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>How is my score calculated?</summary>
+      <div class="answer">
+        Your score is based on the puzzle difficulty, time taken, number of mistakes, and hints used. Solving a harder puzzle faster with no mistakes and no hints gives the highest score.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What is the Day Streak?</summary>
+      <div class="answer">
+        Your streak increases each day you complete at least one puzzle. Missing a day resets your streak back to zero, so try to play daily!
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>How do I use Note mode?</summary>
+      <div class="answer">
+        Tap the ✎ Notes button to toggle Note mode on. While active, tapping a number on the keypad adds it as a small candidate note in the selected cell. Tap Notes again to return to normal input mode.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>My progress was lost. Can I recover it?</summary>
+      <div class="answer">
+        Game progress is stored locally on your device. If you deleted and reinstalled the app, progress cannot be recovered. We recommend not deleting the app to preserve your stats.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>How do I change the app theme?</summary>
+      <div class="answer">
+        Go to Settings (tap the gear icon on the Home screen) and scroll down to App Theme. Choose from Aurora, Cosmos, Grove, or Latte.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>I found a bug. How do I report it?</summary>
+      <div class="answer">
+        Please email us at <a href="mailto:blueloveh03@gmail.com">blueloveh03@gmail.com</a> with a description of the bug and your device model and iOS version. Screenshots are very helpful!
+      </div>
+    </details>
+
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2026 Notle Lab &nbsp;·&nbsp;
+  <a href="./privacy.html">Privacy Policy</a>
+</footer>
+
+</body>
+</html>
