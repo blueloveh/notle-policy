@@ -14,4 +14,4 @@ Pillog을 이용해 주셔서 감사합니다. 문의·버그 신고·기능 제
 [개인정보 처리방침 보기](https://blueloveh.github.io/notle-policy/pillog/PRIVACY)
 
 ---
-© 2026 Notlelab
+© 2026 Notle Lab
