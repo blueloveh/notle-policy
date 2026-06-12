@@ -1,6 +1,6 @@
-# Notle Run 지원 (Support)
+# Runlog 지원 (Support)
 
-Notle Run을 이용해 주셔서 감사합니다. 문의·버그 신고·기능 제안은 아래로 연락 주세요.
+Runlog을 이용해 주셔서 감사합니다. 문의·버그 신고·기능 제안은 아래로 연락 주세요.
 
 ## 문의
 
@@ -26,4 +26,4 @@ Notle Run을 이용해 주셔서 감사합니다. 문의·버그 신고·기능 
 [개인정보 처리방침 보기](https://blueloveh.github.io/notle-policy/runlog/PRIVACY_POLICY)
 
 ---
-© 2026 blueloveh03
+© 2026 Notle Lab
